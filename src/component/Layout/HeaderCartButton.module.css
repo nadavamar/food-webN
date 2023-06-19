@@ -57,3 +57,11 @@
       transform: scale(1);
     }
   }
+
+  @media (max-width:768px) {
+  .button{
+    height: 80%;
+    width: 40%;
+   
+  }
+  }

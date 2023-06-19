@@ -10,7 +10,7 @@ export default function Header(props) {
   return (
     <React.Fragment>
       <header className={classes.header}>
-        <h1>NadavMeals</h1>
+        <h1 className={classes.smallScreem}>NadavMeals</h1>
        <HeaderCartButton onClick={props.onShowCart}/>
       
       </header>
